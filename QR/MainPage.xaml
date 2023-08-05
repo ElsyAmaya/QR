@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QR.MainPage">
+
+    <StackLayout x:Name="stKQR">
+        <StackLayout>
+            <!-- Aquí puedes agregar los controles para mostrar los datos -->
+            <Label x:Name="lblIdBoleto"  Text="Value"  />
+            <Label x:Name="lblNombrePelicula" Text="Value" />
+            <Label x:Name="lblCiudadSala"  Text="Value"  />
+            <Label x:Name="lblNumeroSala"  Text="Value"  />
+            <Label x:Name="lblFechaFactura"  Text="Value"  />
+            <Label x:Name="lblHorarioPelicula"  Text="Value"  />
+            <Label x:Name="lblDNI"  Text="Value"  />
+            <Label x:Name="lblNombreCliente"  Text="Value"  />
+            <Label x:Name="lblApellidoCliente"  Text="Value"  />
+        </StackLayout>
+        <Button x:Name="btnGenerarCodigo" Text="Generar" BackgroundColor="#152567" TextColor="White" WidthRequest="200" HeightRequest="60" CornerRadius="30" Clicked="ButtonGenerarQRClicked" Margin="20"/>
+    </StackLayout>
+</ContentPage>
